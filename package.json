@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel",
     "watch": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build  --public-url /goit-js-hw-08v01/"
   },
   "author": "Andrei Lerke",
   "license": "ISC",
