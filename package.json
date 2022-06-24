@@ -2,12 +2,10 @@
   "name": "food-service",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.js",
-  "main": "dist/main.js",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel './src/*.html'",
-    "watch": "parcel watch",
-    "build": "parcel build './src/*.html' --public-url /goit-js-hw-08v01/"
+    "start": "parcel ./src/*.html",
+    "build": "parcel build ./src/*.html --public-url /goit-js-hw-08v01/"
   },
   "author": "Andrei Lerke",
   "license": "ISC",
