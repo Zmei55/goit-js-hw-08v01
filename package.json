@@ -4,9 +4,9 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/index.html",
     "watch": "parcel watch",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08v01/"
+    "build": "parcel build src/index.html --public-url /goit-js-hw-08v01/"
   },
   "author": "Andrei Lerke",
   "license": "ISC",
