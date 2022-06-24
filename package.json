@@ -1,0 +1,21 @@
+{
+  "name": "food-service",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "author": "Andrei Lerke",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
